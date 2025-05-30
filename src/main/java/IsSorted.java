@@ -14,6 +14,7 @@ public class IsSorted {
                 if(curr > next){
                     return false;
                 }
+                i++;
             }
         }
         return true;
